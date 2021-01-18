@@ -11,4 +11,82 @@
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/helloServlet</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/helloServlet001</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Hello2Servlet</servlet-name>
+        <servlet-class>live.driftmen.demo01.Hello2Servlet</servlet-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hello2Servlet</servlet-name>
+        <url-pattern>/hello2Servlet</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>driftmen</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>driftmen123456</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>Hello4Servlet</servlet-name>
+        <servlet-class>live.driftmen.demo01.Hello4Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hello4Servlet</servlet-name>
+        <url-pattern>/hello4Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Hello5Servlet</servlet-name>
+        <servlet-class>live.driftmen.demo01.Hello5Servlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>Hello5Servlet</servlet-name>
+        <url-pattern>/hello5Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Req01Servlet</servlet-name>
+        <servlet-class>live.driftmen.demo02.Req01Servlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Req01Servlet</servlet-name>
+        <url-pattern>/req01Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Req02Servlet</servlet-name>
+        <servlet-class>live.driftmen.demo02.Req02Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Req02Servlet</servlet-name>
+        <url-pattern>/req02Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Req03Servlet</servlet-name>
+        <servlet-class>live.driftmen.demo02.Req03Servlet</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>Req03Servlet</servlet-name>
+        <url-pattern>/req03Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Req04Servlet</servlet-name>
+        <servlet-class>live.driftmen.demo02.Req04Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Req04Servlet</servlet-name>
+        <url-pattern>/req04Servlet</url-pattern>
+    </servlet-mapping>
 </web-app>

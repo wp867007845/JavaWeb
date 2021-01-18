@@ -12,5 +12,6 @@
 </head>
 <body>
 <h1>HelloWorld,Driftmen</h1>
+<a href="${pageContext.request.contextPath}/req04Servlet">哈哈，driftmen网页终于更新了！</a>
 </body>
 </html>
