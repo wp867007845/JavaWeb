@@ -85,8 +85,35 @@
         <servlet-name>Req04Servlet</servlet-name>
         <servlet-class>live.driftmen.demo02.Req04Servlet</servlet-class>
     </servlet>
+
     <servlet-mapping>
         <servlet-name>Req04Servlet</servlet-name>
         <url-pattern>/req04Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Req05Servlet</servlet-name>
+        <servlet-class>live.driftmen.demo02.Req05Servlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Req05Servlet</servlet-name>
+        <url-pattern>/req05Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Req06Servlet</servlet-name>
+        <servlet-class>live.driftmen.demo02.Req06Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Req06Servlet</servlet-name>
+        <url-pattern>/req06Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Req07Servlet</servlet-name>
+        <servlet-class>live.driftmen.demo02.Req07Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Req07Servlet</servlet-name>
+        <url-pattern>/req07Servlet</url-pattern>
     </servlet-mapping>
 </web-app>
