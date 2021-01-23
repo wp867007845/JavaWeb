@@ -1,19 +1,19 @@
 <%--
   Created by IntelliJ IDEA.
   User: 86700
-  Date: 2021/1/16
-  Time: 11:36
+  Date: 2021/1/21
+  Time: 14:30
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>首页</title>
+    <title>Title</title>
 </head>
 <body>
-<h1>HelloWorld,Driftmen</h1>
-
-<jsp:include page="head.jsp"></jsp:include>
-<jsp:include page="footer.jsp"></jsp:include>
+<%!
+    String s = "头部123";
+%>
+<h1>这是<%=s%></h1>
 </body>
 </html>
